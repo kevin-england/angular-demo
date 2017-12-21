@@ -3,15 +3,12 @@
     lessc styles.less styles.css
 */
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-.active a {
-  background-color: #1e3345;
-  border-top: 3px solid #ffd53b;
-  color: #ffd53b !important;
-  line-height: 85px;
-}
 .bg-primary {
   background-color: #e7e7e7;
   padding: 30px 0;
+}
+.bg-primary h1 {
+  color: #1e3445;
 }
 body {
   font-family: 'Poppins', serif;
@@ -43,6 +40,10 @@ body {
 }
 .cf4u .nav-wrapper {
   background-color: #6f6f6f;
+}
+.collapsible-header {
+  background-color: #1e3445;
+  color: white;
 }
 .fluid {
   max-width: 100%;
@@ -109,40 +110,20 @@ nav .button-collapse i:hover {
 nav .material-icons {
   font-size: 36px !important;
 }
+nav .active a {
+  background-color: #1e3345;
+  border-top: 3px solid #ffd53b;
+  color: #ffd53b !important;
+  line-height: 85px;
+}
 .nav-logo {
   padding: 10px 0;
-}
-.nav .open > a {
-  background-color: rgba(28, 59, 80, 0.78) !important;
-  border-color: #134865;
-  color: #f2b045 !important;
-  font-weight: bold;
-}
-.nav .open > a:focus {
-  background-color: rgba(28, 59, 80, 0.78) !important;
-  border-color: #134865;
-  color: #f2b045 !important;
-  font-weight: bold;
 }
 .nav-wrapper li a:hover {
   background-color: #1e3445;
   border-top: 3px solid #ffd53b;
   color: #ffd53b;
   line-height: 85px;
-}
-.navbar-toggle {
-  /*background-color: #1e3345;*/
-  background-color: #690100;
-  margin-top: 22px;
-}
-.navbar-toggle:hover {
-  /*background-color: rgba(28, 59, 80, 0.78);*/
-  background-color: #790200;
-}
-.navbar-toggle .icon-bar {
-  background-color: #f2b045;
-  width: 25px;
-  height: 3px;
 }
 p {
   font-size: 20px;

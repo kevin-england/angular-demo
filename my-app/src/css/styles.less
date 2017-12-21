@@ -3,18 +3,12 @@
     lessc styles.less styles.css
 */
 
-.active {
-  a {
-    background-color: #1e3345;
-    border-top: 3px solid #ffd53b;
-    color: #ffd53b !important;
-    line-height: 85px;
-  }
-}
-
 .bg-primary {
   background-color: #e7e7e7;
   padding: 30px 0;
+  h1 {
+    color: #1e3445;
+  }
 }
 
 body {
@@ -51,6 +45,11 @@ body {
   .nav-wrapper {
     background-color: #6f6f6f;
   }
+}
+
+.collapsible-header {
+  background-color: #1e3445;
+  color: white;
 }
 
 .fluid {
@@ -126,22 +125,19 @@ nav {
   }
 }
 
+nav {
+  .active {
+    a {
+      background-color: #1e3345;
+      border-top: 3px solid #ffd53b;
+      color: #ffd53b !important;
+      line-height: 85px;
+    }
+  }
+}
+
 .nav-logo {
   padding: 10px 0;
-}
-
-.nav .open>a {
-  background-color: rgba(28, 59, 80, 0.78) !important;
-  border-color: rgb(19, 72, 101);
-  color: #f2b045 !important;
-  font-weight: bold;
-}
-
-.nav .open>a:focus {
-  background-color: rgba(28, 59, 80, 0.78) !important;
-  border-color: rgb(19, 72, 101);
-  color: #f2b045 !important;
-  font-weight: bold;
 }
 
 .nav-wrapper {
@@ -153,23 +149,6 @@ nav {
       line-height: 85px;
     }
   }
-}
-
-.navbar-toggle {
-  /*background-color: #1e3345;*/
-  background-color: #690100;
-  margin-top: 22px;
-}
-
-.navbar-toggle:hover {
-  /*background-color: rgba(28, 59, 80, 0.78);*/
-  background-color: rgb(121, 2, 0);
-}
-
-.navbar-toggle .icon-bar {
-  background-color: #f2b045;
-  width: 25px;
-  height: 3px;
 }
 
 p {
