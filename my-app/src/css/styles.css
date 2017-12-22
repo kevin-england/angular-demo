@@ -19,16 +19,27 @@ body {
   height: 100%;
 }
 .blurb {
-  background-color: #1e3345;
+  background-color: #d19913;
+  bottom: 32px;
+  font-family: 'Edo', sans-serif;
+  font-size: 24px;
+  left: 23px;
+  position: fixed;
 }
 .blurb:hover {
-  background-color: #495F72;
+  background-color: #dab21c;
 }
 .blurb-target {
   background-color: #d19913;
 }
 .blurb-target:hover {
   background-color: #dab21c;
+}
+.card {
+  background-color: #fffaed;
+}
+.card .card-image {
+  padding: 20px;
 }
 .cf4u {
   background-color: #6f6f6f;
