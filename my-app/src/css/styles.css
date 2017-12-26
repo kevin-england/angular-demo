@@ -38,8 +38,20 @@ body {
 .card {
   background-color: #fffaed;
 }
+.card .card-action {
+  border-top: 1px solid #d19913;
+}
+.card .card-action a {
+  color: #d19913 !important;
+}
+.card .card-action a:hover {
+  color: #dab21c !important;
+}
 .card .card-image {
   padding: 20px;
+}
+.card .card-stacked {
+  padding: 0px 10px;
 }
 .cf4u {
   background-color: #6f6f6f;
