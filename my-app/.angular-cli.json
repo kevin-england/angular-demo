@@ -30,7 +30,8 @@
       "styles": [
         "styles.css",
         "../node_modules/materialize-css/dist/css/materialize.css",
-        "css/styles.min.css"
+        "css/styles.min.css",
+        "css/font-awesome.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
