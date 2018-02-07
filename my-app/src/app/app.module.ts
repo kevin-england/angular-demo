@@ -10,7 +10,6 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { ClientsComponent } from './clients/clients.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -29,10 +28,6 @@ const ROUTES = [
       component: ContactComponent
     },
     {
-      path: 'clients',
-      component: ClientsComponent
-    },
-    {
       path: 'portfolio',
       component: PortfolioComponent
     },
@@ -49,7 +44,6 @@ const ROUTES = [
     AboutComponent,
     HomeComponent,
     ContactComponent,
-    ClientsComponent,
     HeaderComponent,
     FooterComponent
   ],
