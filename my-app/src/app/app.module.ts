@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { SoftwareComponent } from './software/software.component';
 
 const ROUTES = [
     {
@@ -34,6 +35,10 @@ const ROUTES = [
     {
       path: 'about',
       component: AboutComponent
+    },
+    {
+      path: 'software',
+      component: SoftwareComponent
     }
 ];
 
@@ -45,7 +50,8 @@ const ROUTES = [
     HomeComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SoftwareComponent
   ],
   imports: [
     BrowserModule, 
