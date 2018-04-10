@@ -10,14 +10,17 @@
       "assets": [
         "assets",
         "images/madero-favicon.ico",
+        "images/Cabinets-Fast-4U-Inc.png",
         "images/custom-banner.jpg",
         "images/home-banner.jpg",
+        "images/lr-logo.png",
         "images/mac-halloween.jpg",
         "images/madero-full-logo.png",
         "images/madero-symbol.png",
         "images/ms-480-exam-large.png",
         "images/portfolio-sample.jpg",
         "images/selfies-distorted.jpg",
+        "images/thetpsfamily-logo.png",
         "images/turtles.png"
       ],
       "index": "index.html",
