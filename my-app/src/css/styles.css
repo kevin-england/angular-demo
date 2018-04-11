@@ -181,6 +181,18 @@ p {
   display: flex;
   flex: 1 1 auto;
 }
+.services p {
+  font-size: 26px;
+}
+.services .tap-target-content h5 {
+  font-size: 1.64rem;
+}
+.services .tap-target-content p {
+  font-size: 24px;
+}
+.services .top-title {
+  margin-top: 60px;
+}
 .side-nav {
   background-color: #1e3345;
   font-family: "Edo", sans-serif;
@@ -326,6 +338,15 @@ p {
   }
   p {
     font-size: 90%;
+  }
+  .services .left-align {
+    text-align: center;
+  }
+  .services p {
+    font-size: 90%;
+  }
+  .services .right-align {
+    text-align: center;
   }
 }
 @media (max-width: 357px) {
