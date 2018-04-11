@@ -18,6 +18,11 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
+/**
+ * Get port from environment and store in Express.
+ */
+const port = process.env.PORT || '3000';
+
 const hostname = '127.0.0.1';
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
