@@ -21,10 +21,5 @@ app.get('*', (req, res) => {
 /**
  * Get port from environment and store in Express.
  */
-const port = process.env.PORT || '3000';
-app.set('port', port);
-
-/**
- * Listen on provided port, on all network interfaces.
- */
-app.listen(port, () => console.log(`API running on localhost:${port}`));
+var port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number);
