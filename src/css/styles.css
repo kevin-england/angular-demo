@@ -2,6 +2,7 @@
     lessc --clean-css styles.less styles.min.css
     lessc styles.less styles.css
 */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 .bg-primary {
   background-color: #e7e7e7;
   padding: 30px 0;
@@ -30,6 +31,7 @@ body {
 }
 .blurb-target {
   background-color: #d19913;
+  display: block !important;
 }
 .blurb-target:hover {
   background-color: #dab21c;
@@ -182,6 +184,9 @@ p {
   display: -webkit-flex;
   display: flex;
   flex: 1 1 auto;
+}
+.scroll-show {
+  display: none;
 }
 .services p {
   font-size: 26px;
@@ -384,10 +389,4 @@ p {
   font-style: normal;
   font-weight: normal;
   src: local('Edo'), url('../fonts/edo.woff') format('woff');
-}
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
 }

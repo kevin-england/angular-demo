@@ -54,3 +54,12 @@ $(document).ready(function() {
     Materialize.scrollFire(options);
         
 });
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 100) {
+    $('.scroll-show').fadeIn();
+  } else {
+    $('.scroll-show').fadeOut();
+  }
+});
