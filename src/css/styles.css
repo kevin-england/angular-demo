@@ -359,6 +359,9 @@ p {
   p {
     font-size: 90%;
   }
+  .scroll-show {
+    display: none !important;
+  }
   .services .left-align {
     text-align: center;
   }
