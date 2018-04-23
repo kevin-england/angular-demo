@@ -3,6 +3,9 @@
     lessc styles.less styles.css
 */
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+a {
+  color: #d19913;
+}
 .bg-primary {
   background-color: #e7e7e7;
   padding: 30px 0;
@@ -231,9 +234,17 @@ p {
 .slider .indicators .indicator-item.active {
   background-color: #1e3345;
 }
+.social-icons {
+  color: #d19913;
+  font-size: 30px;
+  padding: 5px;
+}
 .tap-target {
   background-color: #FFE689;
   font-family: 'Edo', sans-serif;
+}
+.tap-target a {
+  color: #039be5;
 }
 /*Responsive Web Design for all screen sizes including mobile*/
 @media (max-width: 1200px) {
