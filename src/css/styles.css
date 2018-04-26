@@ -124,6 +124,9 @@ footer p {
   display: flex;
   padding: 0;
 }
+h1 {
+  font-size: 3.2rem;
+}
 html {
   height: 100%;
 }
@@ -191,9 +194,6 @@ p {
 .scroll-show {
   display: none;
 }
-.services p {
-  font-size: 24px;
-}
 .services .tap-target-content h5 {
   font-size: 1.64rem;
 }
@@ -201,7 +201,7 @@ p {
   font-size: 20px;
 }
 .services .top-title {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .side-nav {
   background-color: #1e3345;
