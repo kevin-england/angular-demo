@@ -127,6 +127,10 @@ footer p {
 h1 {
   font-size: 3.2rem;
 }
+h3 {
+  font-size: 2.72rem;
+  padding-bottom: 20px;
+}
 html {
   height: 100%;
 }
@@ -270,6 +274,12 @@ p {
   .fixed-action-btn {
     display: none;
   }
+  h1 {
+    font-size: 200%;
+  }
+  h3 {
+    font-size: 180%;
+  }
   .navbar-nav li {
     font-size: 14px !important;
   }
@@ -279,6 +289,9 @@ p {
   }
   .navbar-nav li a:hover {
     padding: 34px 10px;
+  }
+  p {
+    font-size: 100%;
   }
   .parallax-container {
     height: 300px;
